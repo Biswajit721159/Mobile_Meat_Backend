@@ -129,7 +129,7 @@ let Edit=()=>{
             } 
         }
         quen=quen.toLocaleLowerCase()
-        if(quen!="gm" && quen!="kg")
+        if(quen!="gm" && quen!="kg" && quen!="pc")
         {
             seterrorquantity(true)
             setmessagequantity("Invalid Quantity")
